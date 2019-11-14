@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="root" maxHeight="640.0" maxWidth="750.0" minHeight="640.0" minWidth="750.0" prefHeight="640.0" prefWidth="750.0" scaleShape="false" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab fx:id="tabPartida" text="Partida"/>
+      <Tab fx:id="tabPalabras" text="Palabras" />
+      <Tab fx:id="tabPuntuaciones" text="Puntuaciones" />
+  </tabs>
+</TabPane>
